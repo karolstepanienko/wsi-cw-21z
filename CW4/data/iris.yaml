@@ -1,0 +1,228 @@
+!!python/object/new:sklearn.utils.Bunch
+dictitems:
+  DESCR: ".. _iris_dataset:\n\nIris plants dataset\n--------------------\n\n**Data\
+    \ Set Characteristics:**\n\n    :Number of Instances: 150 (50 in each of three\
+    \ classes)\n    :Number of Attributes: 4 numeric, predictive attributes and the\
+    \ class\n    :Attribute Information:\n        - sepal length in cm\n        -\
+    \ sepal width in cm\n        - petal length in cm\n        - petal width in cm\n\
+    \        - class:\n                - Iris-Setosa\n                - Iris-Versicolour\n\
+    \                - Iris-Virginica\n                \n    :Summary Statistics:\n\
+    \n    ============== ==== ==== ======= ===== ====================\n          \
+    \          Min  Max   Mean    SD   Class Correlation\n    ============== ====\
+    \ ==== ======= ===== ====================\n    sepal length:   4.3  7.9   5.84\
+    \   0.83    0.7826\n    sepal width:    2.0  4.4   3.05   0.43   -0.4194\n   \
+    \ petal length:   1.0  6.9   3.76   1.76    0.9490  (high!)\n    petal width:\
+    \    0.1  2.5   1.20   0.76    0.9565  (high!)\n    ============== ==== ==== =======\
+    \ ===== ====================\n\n    :Missing Attribute Values: None\n    :Class\
+    \ Distribution: 33.3% for each of 3 classes.\n    :Creator: R.A. Fisher\n    :Donor:\
+    \ Michael Marshall (MARSHALL%PLU@io.arc.nasa.gov)\n    :Date: July, 1988\n\nThe\
+    \ famous Iris database, first used by Sir R.A. Fisher. The dataset is taken\n\
+    from Fisher's paper. Note that it's the same as in R, but not as in the UCI\n\
+    Machine Learning Repository, which has two wrong data points.\n\nThis is perhaps\
+    \ the best known database to be found in the\npattern recognition literature.\
+    \  Fisher's paper is a classic in the field and\nis referenced frequently to this\
+    \ day.  (See Duda & Hart, for example.)  The\ndata set contains 3 classes of 50\
+    \ instances each, where each class refers to a\ntype of iris plant.  One class\
+    \ is linearly separable from the other 2; the\nlatter are NOT linearly separable\
+    \ from each other.\n\n.. topic:: References\n\n   - Fisher, R.A. \"The use of\
+    \ multiple measurements in taxonomic problems\"\n     Annual Eugenics, 7, Part\
+    \ II, 179-188 (1936); also in \"Contributions to\n     Mathematical Statistics\"\
+    \ (John Wiley, NY, 1950).\n   - Duda, R.O., & Hart, P.E. (1973) Pattern Classification\
+    \ and Scene Analysis.\n     (Q327.D83) John Wiley & Sons.  ISBN 0-471-22361-1.\
+    \  See page 218.\n   - Dasarathy, B.V. (1980) \"Nosing Around the Neighborhood:\
+    \ A New System\n     Structure and Classification Rule for Recognition in Partially\
+    \ Exposed\n     Environments\".  IEEE Transactions on Pattern Analysis and Machine\n\
+    \     Intelligence, Vol. PAMI-2, No. 1, 67-71.\n   - Gates, G.W. (1972) \"The\
+    \ Reduced Nearest Neighbor Rule\".  IEEE Transactions\n     on Information Theory,\
+    \ May 1972, 431-433.\n   - See also: 1988 MLC Proceedings, 54-64.  Cheeseman et\
+    \ al\"s AUTOCLASS II\n     conceptual clustering system finds 3 classes in the\
+    \ data.\n   - Many, many more ..."
+  data: !!python/object/apply:numpy.core.multiarray._reconstruct
+    args:
+    - &id001 !!python/name:numpy.ndarray ''
+    - !!python/tuple
+      - 0
+    - !!binary |
+      Yg==
+    state: !!python/tuple
+    - 1
+    - !!python/tuple
+      - 150
+      - 4
+    - !!python/object/apply:numpy.dtype
+      args:
+      - f8
+      - false
+      - true
+      state: !!python/tuple
+      - 3
+      - <
+      - null
+      - null
+      - null
+      - -1
+      - -1
+      - 0
+    - false
+    - !!binary |
+      ZmZmZmZmFEAAAAAAAAAMQGZmZmZmZvY/mpmZmZmZyT+amZmZmZkTQAAAAAAAAAhAZmZmZmZm9j+a
+      mZmZmZnJP83MzMzMzBJAmpmZmZmZCUDNzMzMzMz0P5qZmZmZmck/ZmZmZmZmEkDNzMzMzMwIQAAA
+      AAAAAPg/mpmZmZmZyT8AAAAAAAAUQM3MzMzMzAxAZmZmZmZm9j+amZmZmZnJP5qZmZmZmRVAMzMz
+      MzMzD0AzMzMzMzP7P5qZmZmZmdk/ZmZmZmZmEkAzMzMzMzMLQGZmZmZmZvY/MzMzMzMz0z8AAAAA
+      AAAUQDMzMzMzMwtAAAAAAAAA+D+amZmZmZnJP5qZmZmZmRFAMzMzMzMzB0BmZmZmZmb2P5qZmZmZ
+      mck/mpmZmZmZE0DNzMzMzMwIQAAAAAAAAPg/mpmZmZmZuT+amZmZmZkVQJqZmZmZmQ1AAAAAAAAA
+      +D+amZmZmZnJPzMzMzMzMxNAMzMzMzMzC0CamZmZmZn5P5qZmZmZmck/MzMzMzMzE0AAAAAAAAAI
+      QGZmZmZmZvY/mpmZmZmZuT8zMzMzMzMRQAAAAAAAAAhAmpmZmZmZ8T+amZmZmZm5PzMzMzMzMxdA
+      AAAAAAAAEEAzMzMzMzPzP5qZmZmZmck/zczMzMzMFkCamZmZmZkRQAAAAAAAAPg/mpmZmZmZ2T+a
+      mZmZmZkVQDMzMzMzMw9AzczMzMzM9D+amZmZmZnZP2ZmZmZmZhRAAAAAAAAADEBmZmZmZmb2PzMz
+      MzMzM9M/zczMzMzMFkBmZmZmZmYOQDMzMzMzM/s/MzMzMzMz0z9mZmZmZmYUQGZmZmZmZg5AAAAA
+      AAAA+D8zMzMzMzPTP5qZmZmZmRVAMzMzMzMzC0AzMzMzMzP7P5qZmZmZmck/ZmZmZmZmFECamZmZ
+      mZkNQAAAAAAAAPg/mpmZmZmZ2T9mZmZmZmYSQM3MzMzMzAxAAAAAAAAA8D+amZmZmZnJP2ZmZmZm
+      ZhRAZmZmZmZmCkAzMzMzMzP7PwAAAAAAAOA/MzMzMzMzE0AzMzMzMzMLQGZmZmZmZv4/mpmZmZmZ
+      yT8AAAAAAAAUQAAAAAAAAAhAmpmZmZmZ+T+amZmZmZnJPwAAAAAAABRAMzMzMzMzC0CamZmZmZn5
+      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
+      MzP7PzMzMzMzMx1AMzMzMzMzB0AzMzMzMzMZQM3MzMzMzPw/zczMzMzMGkAAAAAAAAAEQDMzMzMz
+      MxdAzczMzMzM/D/NzMzMzMwcQM3MzMzMzAxAZmZmZmZmGEAAAAAAAAAEQAAAAAAAABpAmpmZmZmZ
+      CUBmZmZmZmYUQAAAAAAAAABAmpmZmZmZGUCamZmZmZkFQDMzMzMzMxVAZmZmZmZm/j8zMzMzMzMb
+      QAAAAAAAAAhAAAAAAAAAFkDNzMzMzMwAQM3MzMzMzBZAAAAAAAAABEAAAAAAAAAUQAAAAAAAAABA
+      MzMzMzMzF0BmZmZmZmYGQGZmZmZmZhRAMzMzMzMzA0CamZmZmZkZQJqZmZmZmQlAMzMzMzMzFUBm
+      ZmZmZmYCQAAAAAAAABpAAAAAAAAACEAAAAAAAAAWQM3MzMzMzPw/zczMzMzMHkBmZmZmZmYOQM3M
+      zMzMzBpAmpmZmZmZAUDNzMzMzMweQM3MzMzMzARAmpmZmZmZG0BmZmZmZmYCQAAAAAAAABhAmpmZ
+      mZmZAUAAAAAAAAAUQAAAAAAAAPg/mpmZmZmZG0CamZmZmZkJQM3MzMzMzBZAZmZmZmZmAkBmZmZm
+      ZmYWQGZmZmZmZgZAmpmZmZmZE0AAAAAAAAAAQM3MzMzMzB5AZmZmZmZmBkDNzMzMzMwaQAAAAAAA
+      AABAMzMzMzMzGUCamZmZmZkFQJqZmZmZmRNAzczMzMzM/D/NzMzMzMwaQGZmZmZmZgpAzczMzMzM
+      FkDNzMzMzMwAQM3MzMzMzBxAmpmZmZmZCUAAAAAAAAAYQM3MzMzMzPw/zczMzMzMGEBmZmZmZmYG
+      QDMzMzMzMxNAzczMzMzM/D9mZmZmZmYYQAAAAAAAAAhAmpmZmZmZE0DNzMzMzMz8P5qZmZmZmRlA
+      ZmZmZmZmBkBmZmZmZmYWQM3MzMzMzABAzczMzMzMHEAAAAAAAAAIQDMzMzMzMxdAmpmZmZmZ+T+a
+      mZmZmZkdQGZmZmZmZgZAZmZmZmZmGEBmZmZmZmb+P5qZmZmZmR9AZmZmZmZmDkCamZmZmZkZQAAA
+      AAAAAABAmpmZmZmZGUBmZmZmZmYGQGZmZmZmZhZAmpmZmZmZAUAzMzMzMzMZQGZmZmZmZgZAZmZm
+      ZmZmFEAAAAAAAAD4P2ZmZmZmZhhAzczMzMzMBEBmZmZmZmYWQGZmZmZmZvY/zczMzMzMHkAAAAAA
+      AAAIQGZmZmZmZhhAZmZmZmZmAkAzMzMzMzMZQDMzMzMzMwtAZmZmZmZmFkAzMzMzMzMDQJqZmZmZ
+      mRlAzczMzMzMCEAAAAAAAAAWQM3MzMzMzPw/AAAAAAAAGEAAAAAAAAAIQDMzMzMzMxNAzczMzMzM
+      /D+amZmZmZkbQM3MzMzMzAhAmpmZmZmZFUDNzMzMzMwAQM3MzMzMzBpAzczMzMzMCEBmZmZmZmYW
+      QDMzMzMzMwNAmpmZmZmZG0DNzMzMzMwIQGZmZmZmZhRAZmZmZmZmAkAzMzMzMzMXQJqZmZmZmQVA
+      ZmZmZmZmFEBmZmZmZmb+PzMzMzMzMxtAmpmZmZmZCUCamZmZmZkXQGZmZmZmZgJAzczMzMzMGkBm
+      ZmZmZmYKQM3MzMzMzBZAAAAAAAAABEDNzMzMzMwaQAAAAAAAAAhAzczMzMzMFEBmZmZmZmYCQDMz
+      MzMzMxlAAAAAAAAABEAAAAAAAAAUQGZmZmZmZv4/AAAAAAAAGkAAAAAAAAAIQM3MzMzMzBRAAAAA
+      AAAAAEDNzMzMzMwYQDMzMzMzMwtAmpmZmZmZFUBmZmZmZmYCQJqZmZmZmRdAAAAAAAAACEBmZmZm
+      ZmYUQM3MzMzMzPw/
+  data_module: sklearn.datasets.data
+  feature_names:
+  - sepal length (cm)
+  - sepal width (cm)
+  - petal length (cm)
+  - petal width (cm)
+  filename: iris.csv
+  frame: null
+  target: !!python/object/apply:numpy.core.multiarray._reconstruct
+    args:
+    - *id001
+    - !!python/tuple
+      - 0
+    - !!binary |
+      Yg==
+    state: !!python/tuple
+    - 1
+    - !!python/tuple
+      - 150
+    - !!python/object/apply:numpy.dtype
+      args:
+      - i4
+      - false
+      - true
+      state: !!python/tuple
+      - 3
+      - <
+      - null
+      - null
+      - null
+      - -1
+      - -1
+      - 0
+    - false
+    - !!binary |
+      AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAA
+      AQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAAB
+      AAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEA
+      AAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+      AAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAA
+      AgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAAC
+      AAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIA
+      AAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAA
+  target_names: !!python/object/apply:numpy.core.multiarray._reconstruct
+    args:
+    - *id001
+    - !!python/tuple
+      - 0
+    - !!binary |
+      Yg==
+    state: !!python/tuple
+    - 1
+    - !!python/tuple
+      - 3
+    - !!python/object/apply:numpy.dtype
+      args:
+      - U10
+      - false
+      - true
+      state: !!python/tuple
+      - 3
+      - <
+      - null
+      - null
+      - null
+      - 40
+      - 4
+      - 8
+    - false
+    - !!binary |
+      cwAAAGUAAAB0AAAAbwAAAHMAAABhAAAAAAAAAAAAAAAAAAAAAAAAAHYAAABlAAAAcgAAAHMAAABp
+      AAAAYwAAAG8AAABsAAAAbwAAAHIAAAB2AAAAaQAAAHIAAABnAAAAaQAAAG4AAABpAAAAYwAAAGEA
+      AAAAAAAA
